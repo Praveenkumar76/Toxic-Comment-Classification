@@ -15,9 +15,9 @@ This project classifies toxic comments using a fine-tuned BERT model with an acc
 
 ## 📊 Output Examples
 
-| Visualization of Predictions | |
-|-----------------------------|--|
-| ![output1](assets/output1.png) | ![output2](assets/output2.png) |
+| Visualization of Predictions | 
+| ![output1](assets/output1.png) |
+| ![output2](assets/output2.png) |
 
 ---
 
