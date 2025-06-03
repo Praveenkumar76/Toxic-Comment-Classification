@@ -31,11 +31,14 @@ This project classifies toxic comments using a fine-tuned BERT model with an acc
 
 ---
 
-## 📁 Dataset
-
-- [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification)
-- Includes labeled and unlabeled data for semi-supervised learning
-- Data loading and pre-processing handled in `data_loader.py`
+- **Data**:
+  - Labeled: From [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+  - Unlabeled: From [Jigsaw Unintended Bias Dataset](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification)
+- **API**: Integrated with the custom `isomina` API for:
+  - Data preprocessing
+  - Model orchestration
+  - Metrics visualization
+  - Inference handling
 
 ---
 
@@ -46,3 +49,14 @@ This project classifies toxic comments using a fine-tuned BERT model with an acc
 ```bash
 git clone https://github.com/yourusername/toxic-comment-bert.git
 cd toxic-comment-bert
+```
+## Requirements
+- transformers
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- tqdm
+- isomina  # Custom or private package, ensure it's accessible
+- torch>=1.10.0
