@@ -16,8 +16,10 @@ This project classifies toxic as well as sarcastic comments using a fine-tuned B
 ## 📊 Output Examples
 
 | Visualization of Predictions | 
-| ![output1](assets/output1.png) |
-| ![output2](assets/output2.png) |
+ ![output1](assets/output1.png) 
+ ![output2](assets/output2.png) 
+
+- In output2.png, we see that a sarcastic message was correctly identified.
 
 ---
 
