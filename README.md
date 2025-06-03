@@ -1,6 +1,6 @@
 # 💬 Toxic Comment Classification using BERT
 
-This project classifies toxic comments using a fine-tuned BERT model with an accuracy of over **95%**. It integrates unlabeled data from the [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification) and utilizes a custom API wrapper named `isomina` for training orchestration and evaluation.
+This project classifies toxic as well as sarcastic comments using a fine-tuned BERT model with an accuracy of over **95%**. It integrates unlabeled data from the [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification) and utilizes a custom API wrapper named `isomina` for training orchestration and evaluation.
 
 ---
 
